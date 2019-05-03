@@ -1,0 +1,216 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-width: 1300px;
+
+}
+
+.header{
+    background: #4295f4;
+    height: 50px;
+}
+
+.header button{
+
+    float:right;
+    margin: 12px;
+    padding: 1px;
+    background-color: white;
+}
+.inline{
+    margin: 10px;
+
+
+
+}
+
+.tour_office{
+    display: none;
+}
+.dropdown button{
+    height: auto;
+    line-height: 12px;
+    margin-top: 12px;
+    width: 200px
+
+
+
+}
+.dropdown{
+    position: absolute;
+    left: 20%;
+    margin-left: 10px;
+}
+.dropdown-menu{
+    width:200px; 
+
+}
+.header img{
+    margin-left: 10px;
+}
+.under_header{
+    background-color:#1a2330;
+    height: 50px;
+}
+
+.office_rent{
+    display: none;
+}
+
+.well-sm{
+
+    height: 100px;
+    min-width: 1000px;
+    padding: 25px;
+    margin-top: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+
+}
+.well_container{
+    width: 100%;
+    height: 120px;
+    background-color: grey;
+}
+.well-lg{
+    width: 72%;
+    float: right;
+    margin: 20px auto;
+    padding:0px;
+}
+
+
+.hotel_information{
+    position: relative;
+    bottom: 20px;
+    left:20px;
+}
+
+#hotel_select{
+    position: relative;
+    top: 40px;
+    left:80px;
+}
+.hotel_information .glyphicon-map-marker{
+    position: relative;
+    top: 70px;
+
+}
+.hotel_information #price{
+
+    float: right;
+    position: relative;
+    right: 40px;
+    margin-top:100px;
+
+}
+
+.hotel_information .group{
+    position: relative;
+    top: 70px;
+}
+
+.btn-info{
+    position: relative;
+    top:20px;
+}
+.filters{
+    float:left;
+    margin-top:50px;
+
+}
+
+
+
+.properties{
+    width: 72%;
+    float: right;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: grey;
+}
+.panel-primary{
+    float: left;
+    position: relative;
+    top:50px;
+
+}
+
+.panel-body h5{
+    text-align: center;
+}
+#flight_search_form{
+    display: none;
+}
+.menu{
+    padding-top: 15px;
+    text-align: right;
+    margin-right: 3px;
+
+}
+
+.menu a{
+    display: inline;
+    padding:10px;
+    color: white;
+}
+#register_form{
+    padding: 20px;
+}
+.alert-dismissable{
+    display: none;
+}
+
+.nav-tabs{
+    display: none;
+}
+/* Main carousel style */
+.carousel {
+    width: 600px; 
+    margin: 0px auto;
+}
+
+/* Indicators list style */
+.article-slide .carousel-indicators {
+    bottom: 0;
+    left: 0;
+    margin-left: 5px;
+    width: 100%;
+}
+
+#article-photo-carousel{
+    display: none;
+}
+
+/* Indicators list style */
+.article-slide .carousel-indicators li {
+    border: medium none;
+    border-radius: 0;
+    float: left;
+    height: 54px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 5px !important;
+    margin-top: 0;
+    width: 100px;
+}
+/* Indicators images style */
+.article-slide .carousel-indicators img {
+    border: 2px solid #FFFFFF;
+    float: left;
+    height: 54px;
+    left: 0;
+    width: 100px;
+}
+/* Indicators active image style */
+.article-slide .carousel-indicators .active img {
+    border: 2px solid #428BCA;
+    opacity: 0.7;
+}

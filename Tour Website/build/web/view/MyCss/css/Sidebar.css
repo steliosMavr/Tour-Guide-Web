@@ -1,0 +1,45 @@
+.sidebar{
+   
+  
+    height:2000px;
+    width: 250px;
+    background-color:dimgrey;
+    float: left;
+}
+
+ul#nav li{
+    list-style: none;
+    background-repeat: no-repeat;  
+
+}
+ul#nav li a {
+
+    text-align: center;
+    color: #ccc;
+    display: block;
+    padding:12px;
+    font-size: 0.8em;
+    border-bottom: 1px solid #0A0A0A    
+}
+
+ul#nav li a:hover{
+    background-color: #030303;
+    color:#fff;
+}
+ul#nav li a.selected{
+    background-color: #030303;
+    color:#fff;
+}
+ul li ul.dropdown{
+    min-width: 100%; /* Set width of the dropdown */
+    background: #996633;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    min-width: 250px;
+    left: 0;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}

@@ -1,0 +1,303 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-width: 1300px;
+}
+
+.header{
+    background: #4295f4;
+    height: 50px;
+}
+
+.header button{
+
+    float:right;
+    margin: 12px;
+    padding: 1px;
+    background-color: white;
+}
+.container{
+    width: 100%;
+    background-image: url(http://cdn.wallpapersafari.com/32/43/GuhaCl.jpg);
+    background-size:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.form-inline{
+    width: auto;
+    margin-top: 10px;
+    position: relative;
+    text-align: center;
+
+
+}
+.search{
+
+    background-color: dimgray;
+    opacity: 0.9;
+
+}
+.radio_button{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.well{
+
+    margin-top: 10px;
+    float: left;
+}
+
+.inline{
+    margin: 10px;
+
+}
+.dropdown button{
+    height: auto;
+    line-height: 12px;
+    margin-top: 12px;
+    width: 200px
+
+
+
+}
+.dropdown{
+    position: absolute;
+    left: 20%;
+    margin-left: 10px;
+}
+.dropdown-menu{
+    width:200px; 
+
+}
+.more_options{
+    display: none;
+}
+
+
+.header img{
+    margin-left: 10px;
+}
+.under_header{
+    background-color:#1a2330;
+    height: 50px;
+}
+
+.menu{
+    padding-top: 15px;
+    text-align: right;
+    margin-right: 3px;
+
+}
+
+.menu a{
+    display: inline;
+    padding:10px;
+    color: white;
+}
+
+.jumbotron h3{
+    text-align: center;
+    padding: 10px;
+
+}
+
+.destinationsList{
+    width: auto;
+
+    text-align: center;
+    min-width: 1300px;
+    margin-top: 20px;
+
+}
+
+.destinations{
+
+
+    width: 400px;
+    height: 150px;
+
+
+}
+
+
+.destinations:hover{
+    opacity: 0.8;
+}
+#athens{
+    display: inline-block;
+
+    background-size:500px 150px;
+    background-image: url("https://static1.squarespace.com/static/5117ea28e4b0cd4cc71894ad/t/586fb7ce46c3c4a1fe5c6649/1483716561041/day1.jpg?format=1500w");
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+
+#thess{
+    display: inline-block;
+    background-size:500px 150px;
+    background-image: url("http://www.greecetravel.com/thessaloniki/thessaloniki-white-tower.jpg");
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+
+#chania{
+    display: inline-block;
+    background-size:500px 150px;
+    background-image: url("http://www.χανια.com.gr/chania-photos/diaskedash-sta-chania-illuminated-venetian-habour-of-chania-at-night-crete-greece-93-8f20.jpg");
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+.hotels{
+    display: inline-block;
+
+
+}
+
+.hotels:hover{
+    opacity: 0.8;
+}
+.jumbotron{
+    background-color: #daeeef;
+
+
+}
+#newYork{
+    width: 400px;
+    height: 390px;
+    display: inline-block;
+    background-size:400px 390px;
+    background-image: url("https://media.timeout.com/images/103444978/image.jpg");
+    background-repeat: no-repeat;
+    border-radius: 5%;
+
+}
+#korea{
+    width: 400px;
+    height: 390px;
+    display: inline-block;
+    background-size:400px 390px;
+    background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2016/01/korea-wallpaper.jpg");
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+
+
+#bali{
+    width: 710px;
+    height: 390px;
+
+    display: inline-block;
+    background-size:800px 390px;
+    background-image: url("https://wallpaperscraft.com/image/bali_island_ocean_bungalows_96267_1920x1080.jpg");
+    background-repeat: no-repeat;
+    border-radius: 5%;
+
+}
+#london{
+    width: 500px;
+    height: 390px;
+    display: inline-block;
+    background-size:800px 390px;
+    background-image: url("http://wide-wallpapers.net/download/the-palace-of-westminster-houses-of-parliament-big-ben-tower-bridge-london-england-wide-wallpaper-3840x2400.jpg");
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+#france{
+    width: 400px;
+    height: 390px;
+    display: inline-block;
+    background-size:400px 390px;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/89/22/41/892241351aed65d3ed09cedbd9e309d2.jpg");
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+
+.info{
+    width: 400px;
+    height: 100px;
+    display: inline-block;
+    background-size:400px 390px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5fAN97lK9Y7h1K0PP_XzWIicAXIMuktrDEqkozU1YOOeCitbcGw");
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
+
+.info p{
+    color: white;
+    text-align: center;
+}
+
+
+.information{
+    width: auto;
+
+    text-align: center;
+    min-width: 1300px;
+    margin-top: 50px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 12px;
+
+}
+
+
+
+.panel-footer{
+    background-color: grey;
+    list-style: none;
+
+}
+
+
+.panel-footer a:visited{
+    color: white;
+}
+.panel-default{
+    text-align: center;
+}
+
+#popular_hotels_table{
+    display: none;
+}
+
+#popular_destinations_table{
+    display: none;
+}
+#register_form{
+    padding: 20px;
+}
+
+#footer_search input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('http://angusco.github.io/OJohn/texture/search.png');
+    background-size: 20px 20px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+#footer_search input[type=text]:focus {
+    width: 100%;
+}
+.alert-dismissable{
+    display: none;
+}

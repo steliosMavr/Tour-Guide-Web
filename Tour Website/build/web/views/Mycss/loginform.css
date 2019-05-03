@@ -1,0 +1,38 @@
+body{
+    background-color: #046096;
+}
+form{
+    position: absolute;
+    height: 200px;
+    width: 500px;
+    margin: -250px 0 0 -200px;
+    top: 50%;
+    left: 50%;
+
+
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button{
+    background-color: #4CAF50;
+    color:white;
+    padding: 15px;
+    width: 100%;
+}
+button:hover {
+    opacity: 0.8;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}

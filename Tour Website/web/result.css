@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+*{
+margin: 0;
+padding: 0;
+
+}
+
+body{
+     font-family: 'Open Sans';
+     width: 100%;
+     font-size: 20px;
+     
+    
+}
+.mylogo img{
+ position: relative;
+    bottom: 50px;
+    left: 20px;
+}
+
+.top{
+    min-width: 1300px;
+   height:40px;
+   background: #4295f4;
+   
+}
+
+.well-lg meusiumClass{
+  
+}
+
+.buttons{
+   
+    padding-top: 5px;
+    padding-right: 30px;
+    float: right;
+}
+#myForm{
+    width: auto;
+    position: relative;
+    text-align: center;
+    min-width: 500xp;
+    background-color: dimgray;
+    opacity: 0.9;
+  
+}
+.search_results{
+    width:auto;
+    min-width: 1300px;
+    
+}
+#myForm span{
+color: white;
+    
+}
+#myForm input[type=text]{
+    
+    width: 290px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+}
+#myForm input[type=date]{
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#myForm input[type=submit]{
+    width: 200px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    
+}
+.styled-select.slate select {
+  margin-top: 5px;
+   font-size: 16px;
+   margin-left: 10px;
+   height: 34px;
+   width: 250px;
+}
+
+#myForm  option{
+    width: 200px;
+}
+
+.hotels_header select{
+     width: 200px;
+     font-size: 16px;
+    padding: 5px;
+    
+}
+
+.styled-select.slate2 select{
+     font-size: 16px;
+    width: 117px;
+     margin-top: 10px;
+    font-size: 16px;
+   margin-left: 10px;
+}
+
+
+.sidebar{
+  
+   height:auto;
+   float: left;
+  
+  
+    
+    
+}
+.sidebar h5{
+     text-align: center;
+}
+
+
+
+.slider_container{
+    padding: 47px;
+    padding-top: 50px;
+    margin-top: 20px;
+    border-top: 1px solid dimgrey;
+    border-bottom: 1px solid dimgrey;
+    width: 250px;
+    
+}
+
+.acidjs-rating-stars,
+.acidjs-rating-stars label::before
+{
+    display: inline-block;
+}
+ 
+.acidjs-rating-stars label:hover,
+.acidjs-rating-stars label:hover ~ label
+{
+    color: #189800;
+}
+ 
+.acidjs-rating-stars *
+{
+    margin: 0;
+    padding: 0;
+}
+ 
+.acidjs-rating-stars input
+{
+    display: none;
+}
+ 
+.acidjs-rating-stars
+{
+     padding: 47px;
+     padding-top: 50px;
+     border-top: 1px solid dimgrey;
+    border-bottom: 1px solid dimgrey;
+    margin-top: 35px;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+ 
+.acidjs-rating-stars label
+{
+    color: #ccc;
+   
+   
+}
+ 
+.acidjs-rating-stars label::before
+{
+    
+    content: "\2605";
+    width: 50px;
+    line-height: 18px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+ 
+.acidjs-rating-stars input:checked ~ label
+{
+    color: #f5b301;
+}
+#Search_Form input[type=submit]{
+   
+    width: auto;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#Search_Form input[type=date]{
+   
+    width: 250px;
+   padding: 14px 20px;
+    margin: 5px 0;
+    margin-left: 10px;
+}
+.Search{
+    margin-top: 25px;
+    padding: 20px;
+     padding-top: 10px;
+    
+    background-color: green
+}
+.aksiotheata{
+    border-top: 1px solid dimgrey;
+     border-bottom: 1px solid dimgrey;
+    padding: 35px;
+    padding-top: 40px;
+      margin-top: 25px;
+}
+.main{
+    float: right;
+  
+  
+}
+.main_c{
+    
+   width: 1000px;
+    margin: 50px auto;
+   
+}
+.hotels2{
+    margin-top: 10px;
+   width: 603px;
+    border: 1px solid black;
+    
+   
+}
+
+.hotels2 img{
+    float: left;
+}
+.hotel_inf{
+    border: 1px solid black;
+
+    
+    
+}
+.hotel_inf input[type=submit]{
+   padding: 10px;
+    width: 302px;
+    margin-top: 33px;
+    
+    
+}
+.hotels_header{
+    background-color: dimgray;
+    padding: 10px;
+    
+}
